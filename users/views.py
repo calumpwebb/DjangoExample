@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import redirect, render
 
-from users.forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from users.forms import ProfileUpdateForm, UserRegisterForm, UserUpdateForm
 
 
 def register(request):
